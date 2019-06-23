@@ -1,0 +1,38 @@
+// palatte goes here?
+$main-color: #3C3744;
+$accent-color: #090C9B;
+$secondary-color: #3D52D5; // probably use this for header text?
+$border-color: #B4C5E4;
+$background-color: #FBFFF1;
+
+.navbarTextColor {
+    color : $secondary-color;
+}
+
+body {
+    background: url('../images/papyrus.png');
+}
+
+nav { 
+    background-color: $main-color;
+    width: 100%;
+    h1 {
+        background: $accent-color;
+        padding: 1em;
+        font-size: 3em;
+    }
+    ul {
+        float:right;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+.navbar-toggler-icon {
+    color: $secondary-color;
+}
