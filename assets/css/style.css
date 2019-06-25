@@ -9,13 +9,49 @@
 
 .projectPhoto {
   border: 1px solid #B4C5E4;
-  /* Gray border */
   border-radius: 4px;
-  /* Rounded border */
   padding: 1em;
-  /* Some padding */
   width: 15em;
-  /* Set a small width */
+}
+
+.links li {
+  margin: 1em;
+}
+.links li i {
+  margin-left: 0.5em;
+}
+
+#gitButton {
+  background: #24292e;
+  text-decoration: none;
+  color: #FBFFF1;
+  padding: 0.5em;
+}
+
+#linkedButton {
+  background: #0077B5;
+  text-decoration: none;
+  padding: 0.5em;
+  color: #FBFFF1;
+}
+
+#resumeButton {
+  background: #3C3744;
+  text-decoration: none;
+  color: #FBFFF1;
+  padding: 0.5em;
+}
+
+#submitButton {
+  background: #3C3744;
+  text-decoration: none;
+  color: #FBFFF1;
+  padding: 0.5em 1em;
+  border: none;
+}
+
+#submitButton:hover {
+  background: #57535E;
 }
 
 .wrapper {

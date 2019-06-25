@@ -15,10 +15,52 @@ $background-color: #FBFFF1;
 }
 
 .projectPhoto {
-    border: 1px solid $border-color; /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 1em; /* Some padding */
-    width: 15em; /* Set a small width */
+    border: 1px solid $border-color; 
+    border-radius: 4px; 
+    padding: 1em; 
+    width: 15em; 
+}
+
+.links {
+    li {
+        margin: 1em;
+        i {
+            margin-left: 0.5em;
+        }
+    }
+}
+
+#gitButton {
+    background: #24292e;
+    text-decoration: none;
+    color: $background-color;
+    padding: 0.5em;
+}
+
+#linkedButton {
+    background: #0077B5;
+    text-decoration: none;
+    padding: 0.5em;
+    color: $background-color;
+}
+
+#resumeButton {
+    background: $main-color;
+    text-decoration: none;
+    color: $background-color;
+    padding: 0.5em;
+}
+
+#submitButton {
+    background: $main-color;
+    text-decoration: none;
+    color: $background-color;
+    padding: 0.5em 1em;
+    border: none;
+}
+
+#submitButton:hover {
+    background: #57535E;
 }
 
 .wrapper {
