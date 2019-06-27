@@ -4,7 +4,7 @@
 A deployed version of the site can be found here https://drogalsky.github.io/Basic-Portfolio/
 
 ## Usage
-Click the navbar to go between pages. The about page is just a small snippet about me. The contacts page is where you would send an email to me but currently the button does nothing. The portfolio page currently has one gorup project I worked on and two other assignments. You can click the pictures to go to the deployed site or the link to go to the repository.
+Click the navbar to go between pages. The about page is just a small snippet about me the three buttons at the bottom will bring you to my github and linkedin the resume currenlty does nothing as I'm updating it. The contacts page is where you would send an email to me but currently the button does nothing. The portfolio page currently has one gorup project I worked on and two other assignments. You can click the pictures to go to the deployed site or the link to go to the repository.
 
 ## Challenges
 Setting the form up took a lot of time for the text boxes I set the width to 900px (60 less than the container of 960px) and gave them 30px side margin for the textarea I changed it to 900px then changed the height until it came to just above the button. This allowed for a more uniform look with the evenly spaced headers and I'm happy with the final product. In the future I would change the forms ability to react to the space of the screen.
